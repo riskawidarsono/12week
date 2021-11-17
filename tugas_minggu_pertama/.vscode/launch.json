@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "tugas_minggu_pertama",
+            "request": "launch",
+            "type": "dart",
+            "dart.lineLength":150,
+            
+        },
+        {
+            "name": "tugas_minggu_pertama (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            
+            
+        },
+        
+    ]
+}
