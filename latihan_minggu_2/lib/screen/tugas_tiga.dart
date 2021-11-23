@@ -22,13 +22,13 @@ class TugasTiga extends StatelessWidget {
           ),
         ],
       ),
-      body: const BodyTugasDua(),
+      body: const BodyTugasTiga(),
     );
   }
 }
 
-class BodyTugasDua extends StatelessWidget {
-  const BodyTugasDua({Key? key}) : super(key: key);
+class BodyTugasTiga extends StatelessWidget {
+  const BodyTugasTiga({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
