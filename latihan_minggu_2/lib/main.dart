@@ -1,8 +1,10 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:latihan_minggu_2/screen/root.dart';
+import 'package:latihan_minggu_2/until/routes.dart';
 
 void main(List<String> args) {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -10,6 +12,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'latihan',
+      home: const Root(),
+      getPages: Routers.route,
+    );
   }
 }
